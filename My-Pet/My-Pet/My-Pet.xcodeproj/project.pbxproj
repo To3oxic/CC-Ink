@@ -15,6 +15,7 @@
 		96AEE8DC24CEC890002A106E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AEE8DA24CEC890002A106E /* LaunchScreen.storyboard */; };
 		96AEE8E724CEC890002A106E /* My_PetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AEE8E624CEC890002A106E /* My_PetTests.swift */; };
 		96AEE8F224CEC890002A106E /* My_PetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AEE8F124CEC890002A106E /* My_PetUITests.swift */; };
+		96E6570624CEFEB2002D2887 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E6570524CEFEB2002D2887 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96AEE8ED24CEC890002A106E /* My-PetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My-PetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AEE8F124CEC890002A106E /* My_PetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_PetUITests.swift; sourceTree = "<group>"; };
 		96AEE8F324CEC890002A106E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E6570524CEFEB2002D2887 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				96AEE8D524CEC890002A106E /* Assets.xcassets */,
 				96AEE8DA24CEC890002A106E /* LaunchScreen.storyboard */,
 				96AEE8DD24CEC890002A106E /* Info.plist */,
+				96E6570524CEFEB2002D2887 /* Food.swift */,
 				96AEE8D724CEC890002A106E /* Preview Content */,
 			);
 			path = "My-Pet";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96AEE8D024CEC88F002A106E /* AppDelegate.swift in Sources */,
+				96E6570624CEFEB2002D2887 /* Food.swift in Sources */,
 				96AEE8D224CEC88F002A106E /* SceneDelegate.swift in Sources */,
 				96AEE8D424CEC88F002A106E /* ContentView.swift in Sources */,
 			);
